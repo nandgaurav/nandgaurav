@@ -49,6 +49,9 @@ dt2[,t.test(price,mu=y)]
 
 #6.	Use once again the original dataset and drop observations for that are above the 95 percentile of the price variable.
 dt5<-dt[price<quantile(price,0.95),]
+mean(dt5$price)
+sd(dt5$price)
+sd(dt5$price)^2
 
 #7.	Generate a dummy variable taking value one if price_online is missing and zero otherwise. Call this variable missing_online. Make histograms and boxplots of price and price_amazon for each value of this indicator variable. 
 dt5[is.na(price_online),missing_online:=1]
