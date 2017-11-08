@@ -30,7 +30,7 @@ dt2[,quantile(price_online,probs=c(0,0.25,0.5,0.75,1))]
 dt2[,quantile(price_online,probs = seq(0,1,0.1))]
 
 #4.	Use a t-test to compare the means of price and online price
-dt2[,t.test(price==price_online,alternative = c("two.sided"))]
+dt2[,t.test(price,price_online)]
 
 
 sd_price<-dt2[,sd(price)^2/nrow(dt2)]
