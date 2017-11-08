@@ -1,6 +1,6 @@
 #1
 rm(list=ls())
-dt<-read.csv('C:/Users/Nikitha Niranjan/Desktop/amazon_compare.csv')
+dt<-read.csv('C:/Users/Gaurav Nand/Desktop/amazon_compare.csv')
 library(data.table)
 dt<-data.table(dt)
 #2
