@@ -1,6 +1,6 @@
 ## Created by Group 30
-# 
-# 
+# Gergely Kinizsi
+# Balazs Zankay
 # Gaurav Nand
 
 #Problem Set 3
